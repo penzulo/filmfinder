@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "filmfinder"
+version = "0.1.0"
+description = "A movie recommendation system which uses machine learning statistics for user suggestions."
+authors = ["Penzulo <bhargav.deshpande@mitwpu.edu.in>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.3"
+scikit-learn = "^1.5.2"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.10.0"
+ruff = "^0.7.4"
+mypy = "^1.13.0"
+debugpy = "^1.8.8"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
